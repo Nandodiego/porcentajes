@@ -19,7 +19,7 @@ html,body{
 
 .header {
 	width: 100%;
-	height: 30%;
+	height: 40%;
 	
 	display: flex;
 	flex-direction: row;
@@ -29,6 +29,14 @@ html,body{
 .uno {
 	width: 50%;
 }
+
+.uno:hover {
+	background-color: #0c7187 ;
+	cursor: pointer;
+	border-radius: 50%;
+	transition: 2s all ease;
+}
+
 
 .uno1 {
 	background: #ff473b;
@@ -59,16 +67,19 @@ html,body{
 	justify-content: center;
 }
 
-.algo {
-	background: red;
-	padding: 10px;
-	margin: 15px;
-}
+
 
 .dos {
 	width: 30%;
-
 } 
+
+
+.dos:hover {
+	background-color: #7b7974;
+	cursor: pointer;
+	border-radius: 50%;
+	transition: 2s all ease;
+}
 
 .dos1 {
 	background: #3bfd70;
@@ -88,7 +99,7 @@ html,body{
 
 .main .segun {
 	width: 100%;
-	height: 50%;
+	height: 300px;
 
 	display: flex;
 	flex-direction: row;
@@ -97,7 +108,13 @@ html,body{
 
 .tres {
 	width: 34%;
-	height: 40%;
+}
+
+.tres:hover {
+	background-color: #eac443;
+	cursor: pointer;
+	border-radius: 50%;
+	transition: 2s all ease;
 }
 
 .tres1 {
@@ -112,3 +129,41 @@ html,body{
 	background: #0E27DF;
 }
 
+.tercer .ultimo {
+	width: 100%;
+	height: 300px;
+	background: #f8efb0;
+}
+
+
+.ultimo:hover {
+	background-color: #535b87;
+	cursor: pointer;
+	border-radius: 50%;
+	transition: 2s all ease;
+}
+
+footer {
+	width: 100%;
+	height: 205px;
+	background: #B189CB;
+	padding: 15px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.fo {
+	width: 100px;
+	height: 150px;
+	margin: 13px;
+	background: red;
+}
+
+.fo:hover {
+	background-color: #f3eae8;
+	cursor: pointer;
+	border-radius: 50%;
+	transition: 2s all ease;
+}
