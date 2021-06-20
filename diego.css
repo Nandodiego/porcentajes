@@ -91,6 +91,7 @@ html,body{
 
 .dos3 {
 	background: #1c213e;
+
 }
 
 .dos4 {
@@ -146,7 +147,7 @@ html,body{
 footer {
 	width: 100%;
 	height: 205px;
-	background: #B189CB;
+	background: #AD9AD8;
 	padding: 15px;
 
 	display: flex;
@@ -154,16 +155,120 @@ footer {
 	justify-content: center;
 }
 
-.fo {
+.final {
 	width: 100px;
 	height: 150px;
 	margin: 13px;
 	background: red;
 }
 
-.fo:hover {
+.final:hover {
 	background-color: #f3eae8;
 	cursor: pointer;
 	border-radius: 50%;
 	transition: 2s all ease;
 }
+
+@media(max-width: 800px) {
+	.header {
+		height: 150px;
+		flex-direction: column;
+	}
+
+	.uno {
+		height: 100%;
+		width: 100%;
+	}
+
+	.main .grupo {
+		height: 700px;
+		flex-direction: column-reverse;
+	}
+
+	.dos {
+		height: 150px;
+		width: 100%;
+	}
+
+	.dos1 {
+		height: 400px;
+		order: 2;
+	}
+
+	.dos2 {
+		height: 1200px;
+		order: 3;
+	}
+
+	.dos3 {
+		height: 1200px;
+		order: 4;
+	}
+	
+	.dos4 {
+		height: 400px;
+		order: 1;
+	}
+
+	.main .segun {
+		flex-direction: column;
+	}
+
+	.tres {
+		height: 150px;
+		width: 100%;
+	}
+
+	.tres1 {
+		height:700px;
+		order: 2;
+	}
+
+	.tres2 {
+		height: 400px;
+		order: 3;
+	}
+
+	.tres3 {
+		height: 410px;
+		order: 1;
+	}
+
+	
+	.tercer .ultimo {
+	height: 90px;
+	}
+ 
+ 	.footer {
+ 	height: 540px;
+
+ 	flex-direction: column;
+ 	align-items: center;
+ 	}
+
+	.final {
+		width: 300px;
+	}
+
+	.final1 {
+		background: #32221F;
+	}
+	.final2 {
+		background: #503F8E;
+	}
+
+	.final3 {
+		background: #635B4F;
+	}
+
+	.final4 {
+		background: #78DA68;
+	}
+
+	.final5 {
+		background: #F8EDFA;
+	}
+
+
+	
+	
